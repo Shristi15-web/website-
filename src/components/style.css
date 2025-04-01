@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: rgb(158, 101, 177);
+    padding: 0;
+    
+
+    
+}
+.img{
+    
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    
+    
+    
+}
+#img1{ height: 80px;
+align-content: end;}
+.head{
+    font-size: 50px;
+    text-align: center;
+    color: azure;
+}
+
+.sign{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+#email{margin-bottom: 20px;
+width: 200px;
+height:30px;
+text-align: center;
+
+
+}
+#password{
+    width: 200px;
+height:30px;
+text-align: center;
+
+
+}
+#submit{ margin-top: 30px;
+
+height: 30px;
+}
+.ss{ display: inline-block;
+}
+.acc{ text-align: center;}
