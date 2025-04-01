@@ -1,0 +1,85 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3e8ff; /* Light Purple Background */
+  }
+  
+  .login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7b2cbf; /* Purple */
+    margin-bottom: 10px;
+  }
+  
+  .login-subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .signin-btn {
+    width: 100%;
+    background: #7b2cbf;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .signin-btn:hover {
+    background: #6a1aa1;
+  }
+  
+  .forgot-password {
+    color: #7b2cbf;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    border: 1px solid #7b2cbf;
+    color: #7b2cbf;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    background: white;
+    transition: background 0.3s;
+  }
+  
+  .signup-btn:hover {
+    background: #f3e8ff;
+  }
+  .error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+  
